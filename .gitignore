@@ -1,13 +1,6 @@
-# Virtual Environment
 venv/
 env/
-
-# Compiled Python files
 __pycache__/
 *.pyc
-
-# IDE specific settings (e.g., PyCharm)
 .idea/
-
-# Environment variables (secrets)
 .env

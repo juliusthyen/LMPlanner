@@ -40,7 +40,6 @@ As this is a solo project, I am very happy about every suggestion, bug report, a
 - Encounter a Bug
 - Have a suggestion
 - Want to request a feature
-
 If you have general feedback or inquiries, you can take a look at the [**Discussions**](https://github.com/juliusthyen/LMPlanner/discussions)
 
 ## 📝 License

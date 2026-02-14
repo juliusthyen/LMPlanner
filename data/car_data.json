@@ -1,0 +1,35 @@
+{
+  "classes": {
+    "Hypercar": {
+      "refueling_time": 40,
+      "tire_change_time": 12
+    },
+    "LMP2_Unrestricted": {
+      "refueling_time": 40,
+      "tire_change_time": 12
+    },
+    "LMP2_Restricted": {
+      "refueling_time": 40,
+      "tire_change_time": 12
+    },
+    "LMP3": {
+      "refueling_time": 40,
+      "tire_change_time": 12
+    },
+    "LMGT3": {
+      "refueling_time": 40,
+      "tire_change_time": 12
+    },
+    "GTE": {
+      "refueling_time": 40,
+      "tire_change_time": 12
+    }
+  },
+  "cars": {
+    "GT3_Lexus": {
+      "car_class": "LMGT3",
+      "name": "Lexus RC F LMGT3"
+    }
+  }
+}
+

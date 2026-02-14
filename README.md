@@ -45,3 +45,7 @@ If you have general feedback or inquiries, you can take a look at the [**Discuss
 ## 📝 License
 
 This project is licensed under the MIT License - see the [**LICENSE**](https://github.com/juliusthyen/LMPlanner/blob/main/LICENSE.txt) file for details.
+
+## ❗️ Disclaimer
+
+This is an unofficial project created by a racer for other racers. It is not affiliated with "Le Mans Ultimate", the Developer Studio "Studio 397" or the Publisher "Motorsport Games". All trademarks are the property of their respective owners.

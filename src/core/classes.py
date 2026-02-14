@@ -8,10 +8,11 @@ class Stint:
         self.driver = driver
         self.race = race
         self.actual_laps = actual_laps
+        self.changed_tires = {}
 
     @property
     def pitstop_time(self):
-        return self.race.car.refueling_time + self.race.car.tire_change_time
+        return self.race.car.refueling_time + (len(self.changed_tires)/4)*self.race.car.tire_change_time
         #+ self.race.track.pit_lane_time
 
     @property
@@ -71,20 +72,24 @@ class Stint:
         index = self.race.stints.index(self)
         return sum(stint.duration for stint in self.race.stints[:index])
 
+    def get_changed_tires(self):
+        pass
+
+
 class Driver:
     def __init__(self, name, lap_time):
         self.name = name
         self.lap_time = lap_time
 
 class Car:
-    def __init__(self, car_choice):
+    def __init__(self, car_choice, car_class):
         self.car_choice = car_choice
+        self.car_class = car_class
         with open('data/car_data.json', "r") as file:
             car_data = json.load(file)
-            self.car_class = car_data["cars"][car_choice]["car_class"]
             self.refueling_time = car_data["classes"][self.car_class]["refueling_time"]
             self.tire_change_time = car_data["classes"][self.car_class]["tire_change_time"]
-            self.name = car_data["cars"][car_choice]["name"]
+            self.name = car_data["classes"][self.car_class]["cars"][car_choice]["name"]
 
 class Track:
     def __init__(self, pit_lane_time):

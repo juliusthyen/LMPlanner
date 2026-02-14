@@ -2,33 +2,129 @@
   "classes": {
     "Hypercar": {
       "refueling_time": 40,
-      "tire_change_time": 12
+      "tire_change_time": 12,
+      "cars": {
+        "HY_Alpine": {
+          "name": "Alpine A424"
+        },
+        "HY_Aston-Martin": {
+          "name": "Aston Martin Valkyrie AMR-LMH"
+        },
+        "HY_BMW": {
+          "name": "BMW M Hybrid V8"
+        },
+        "HY_Cadillac": {
+          "name": "Cadillac V-Series.R"
+        },
+        "HY_Ferrari": {
+          "name": "Ferrari 499P"
+        },
+        "HY_Glickenhaus": {
+          "name": "Glickenhaus SCG 007"
+        },
+        "HY_Isotta": {
+          "name": "Isotta Fraschini Tipo 6"
+        },
+        "HY_Lamborghini": {
+          "name": "Lamborghini SC63"
+        },
+        "HY_Peugeot": {
+          "name": "Peugeot 9x8"
+        },
+        "HY_Porsche": {
+          "name": "Porsche 963"
+        },
+        "HY_Toyota": {
+          "name": "Toyota GR010-Hybrid"
+        },
+        "HY_Vanwall": {
+          "name": "Vanwall Vandervell 680"
+        }
+      }
     },
     "LMP2_Unrestricted": {
       "refueling_time": 40,
-      "tire_change_time": 12
+      "tire_change_time": 12,
+      "cars": {
+        "LMP2_ELMS_Oreca": {
+          "name": "ORECA 07 Gibson ELMS"
+        }
+      }
     },
     "LMP2_Restricted": {
       "refueling_time": 40,
-      "tire_change_time": 12
+      "tire_change_time": 12,
+      "cars": {
+        "LMP2-WEC_Oreca": {
+          "name": "ORECA 07 Gibson WEC"
+        }
+      }
     },
     "LMP3": {
       "refueling_time": 40,
-      "tire_change_time": 12
+      "tire_change_time": 12,
+      "cars": {
+        "LMP3_Ginetta": {
+          "name": "Ginetta G61-LT-P325-Evo"
+        },
+        "LMP3_Ligier": {
+          "name": "Ligier JS P325"
+        }
+      }
     },
     "LMGT3": {
       "refueling_time": 40,
-      "tire_change_time": 12
+      "tire_change_time": 12,
+      "cars": {
+        "GT3_Ford": {
+          "name": "Ford Mustang LMGT3"
+        },
+        "GT3_McLaren": {
+          "name": "McLaren 720s LMGT3 Evo"
+        },
+        "GT3_Mercedes": {
+          "name": "Mercedes-AMG LMGT3"
+        },
+        "GT3_BMW": {
+          "name": "BMW M4 LMGT3"
+        },
+        "GT3_Aston-Martin": {
+          "name": "Aston Martin Vantage AMR LMGT3"
+        },
+        "GT3_Chevrolet": {
+          "name": "Corvette Z06 LMGT3.R"
+        },
+        "GT3_Ferrari": {
+          "name": "Ferrari 296 LMGT3"
+        },
+        "GT3_Lamborghini": {
+          "name": "Lamborghini Huracan LMGT3 Evo2"
+        },
+        "GT3_Lexus": {
+          "name": "Lexus RC F LMGT3"
+        },
+        "GT3_Porsche": {
+          "name": "Porsche 911 GT3 R"
+        }
+      }
     },
     "GTE": {
       "refueling_time": 40,
-      "tire_change_time": 12
-    }
-  },
-  "cars": {
-    "GT3_Lexus": {
-      "car_class": "LMGT3",
-      "name": "Lexus RC F LMGT3"
+      "tire_change_time": 12,
+      "cars": {
+        "GTE_Aston-Martin": {
+          "name": "Aston Martin Vantage AMR"
+        },
+        "GTE_Chevrolet": {
+          "name": "Chevrolet Corvette C8.R"
+        },
+        "GTE_Ferrari": {
+          "name": "Ferrari 488 GTE Evo"
+        },
+        "GTE_Porsche": {
+          "name": "Porsche 911 RSR-19"
+        }
+      }
     }
   }
 }
